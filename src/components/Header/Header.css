@@ -8,3 +8,9 @@
   font-size: 1.2rem;
   margin-bottom: 0.23rem;
 }
+.mt-6 {
+  margin-top: 5rem;
+}
+.bg-offWhite {
+  background: #fffafa;
+}

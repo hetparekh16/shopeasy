@@ -1,0 +1,10 @@
+.homeGridScroll {
+  overflow-x: scroll;
+}
+
+.homeGridScroll::-webkit-scrollbar {
+  display: none;
+}
+.homeHeight {
+  height: auto;
+}
