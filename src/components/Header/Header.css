@@ -1,0 +1,10 @@
+.img-style {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.icon {
+  font-size: 1.2rem;
+  margin-bottom: 0.23rem;
+}
