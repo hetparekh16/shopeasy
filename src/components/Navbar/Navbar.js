@@ -7,19 +7,19 @@ const handleClick = () => {
 const Navbar = () => {
     return (
         <>
-            <div class="menu-icon" onClick={handleClick}>
-                <span class="menu-icon__line menu-icon__line-left"></span>
-                <span class="menu-icon__line"></span>
-                <span class="menu-icon__line menu-icon__line-right"></span>
+            <div className="menu-icon" onClick={handleClick}>
+                <span className="menu-icon__line menu-icon__line-left"></span>
+                <span className="menu-icon__line"></span>
+                <span className="menu-icon__line menu-icon__line-right"></span>
             </div>
 
-            <div class="nav">
-                <div class="nav__content">
-                    <ul class="nav__list">
-                        <li class="nav__list-item">Home</li>
-                        <li class="nav__list-item">About</li>
-                        <li class="nav__list-item">Projects</li>
-                        <li class="nav__list-item">Contact</li>
+            <div className="nav">
+                <div className="nav__content">
+                    <ul className="nav__list">
+                        <li className="nav__list-item">Home</li>
+                        <li className="nav__list-item">About</li>
+                        <li className="nav__list-item">Projects</li>
+                        <li className="nav__list-item">Contact</li>
                     </ul>
                 </div>
             </div>

@@ -4,12 +4,12 @@ import './Header.css'
 const Headerbuttons = () => {
     return (
         <div>
-            <button class="btn btn-primary mx-2" type="submit">Login</button>
-            <button type="button" class="btn btn-warning position-relative">
+            <button className="btn btn-primary mx-2" type="submit">Login</button>
+            <button type="button" className="btn btn-warning position-relative">
                 <img src={shopCart} className="icon" alt="shopCart" /> Cart
-                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                     99+
-                    {/* <span class="visually-hidden">unread messages</span> */}
+                    {/* <span className="visually-hidden">unread messages</span> */}
                 </span>
             </button>
         </div>
